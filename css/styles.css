@@ -1,0 +1,19 @@
+body {
+    background-image: url();
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin: 0;
+    border: 0;
+}
+
+ul {
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+
+}
+
+li {
+    display: block;
+    border: 2px silver
+}
