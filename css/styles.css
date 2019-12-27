@@ -1,19 +1,64 @@
-body {
-    background-image: url();
-    background-attachment: scroll;
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Gupter', serif;
+    font-size: 1.5rem;
+}
+.intro{
+    background-image: url("/images/2.jpeg");
     background-repeat: no-repeat;
-    margin: 0;
-    border: 0;
+    height: 60vh;
 }
-
-ul {
-    margin: 0;
-    border: 0;
-    list-style-type: none;
-
+nav ul{
+    word-spacing: 15px;
+   text-align: center;
+   color: silver;
 }
-
-li {
-    display: block;
-    border: 2px silver
+nav li{
+display: inline-block;
+font-size: 2.5rem;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.intro h1{
+    color: white;
+    font-size: 4rem;
+}
+.logo{
+scroll-behavior: smooth;
+width: 280px;
+}
+h2{
+    text-align: center;
+}
+.introd{
+    text-align: center;
+}
+.activities p, .accom p, .travel p{
+text-align: center;
+}
+.activities img{
+    width: 60vh;
+    height: 50vh;
+}
+.act p{
+text-align: center;
+}
+.accom img{
+    width: 47vh;
+    height: 45vh;
+}
+.base p ,.base ul{
+    color: teal;
+}
+.cruise{
+    width: 60vh;
+}
+.Dir{
+    width: 55vh;
+}
+.con{
+    background-color: rgb(229, 147, 175);
 }
